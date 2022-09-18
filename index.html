@@ -2,42 +2,70 @@
 <html>
   <head>
     <title>Title</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
-      body { font-family: 'Droid Serif'; }
-      h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
+      @import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap");
+      body {
+        font-family: "Lato";
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Montserrat";
         font-weight: normal;
       }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code,
+      .remark-inline-code {
+        font-family: "Ubuntu Mono";
+      }
+      .slides {
+        background-color: rgb(167, 173, 200);
+      }
+      .title {
+        background-color: #151e3f;
+        color: white;
+      }
+      .flex {
+        display: flex;
+      }
+      .hello {
+        font-size: 1.25rem;
+      }
     </style>
   </head>
   <body>
     <textarea id="source">
 
-class: center, middle
+class: center, middle, title
 
-# Title
+# Blue 
 
 ---
-
+class: slides
 # Agenda
 
 1. Introduction
-2. Deep-dive
-3. ...
-
+2. Psychology
+3. Culture
 ---
+class: slides
+# Introductory facts
+<div class="flex"> 
+<div class="hello">
+  Analogous: Green
+  <br>
+  Wavelength: 450-495 nm 
+  <br>
+  Frequency: ~670-610 THz
+  <br>
+</div>
 
-# Introduction
-
+</div>
+---
+# Psychology
+</div>
     </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-    </script>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
     <script>
       var slideshow = remark.create();
     </script>
